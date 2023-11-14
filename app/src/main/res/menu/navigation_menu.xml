@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings"/>
+        <item
+            android:id="@+id/nav_exit"
+            android:title="Exit"
+            android:icon="@drawable/ic_exit"/>
+    </group>
+
+    <item android:title="Kapcsolat">
+        <menu>
+            <item
+                android:id="@+id/nav_telefon"
+                android:title="Telefon"
+                android:icon="@drawable/ic_phone"/>
+            <item
+                android:id="@+id/nav_mail"
+                android:title="Email"
+                android:icon="@drawable/ic_email"/>
+        </menu>
+    </item>
+
+</menu>

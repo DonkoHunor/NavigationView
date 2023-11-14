@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NavigationView</string>
+    <string name="open">Navigation view open</string>
+    <string name="close">Navigation view close</string>
+</resources>
